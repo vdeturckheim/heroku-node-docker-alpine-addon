@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
 
 
     tryLoad('grpc', res);
-    tryLoad('sqlite3', res);
     tryLoad('sq-native', res);
     res.end('\n');
 });
