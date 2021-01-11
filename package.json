@@ -1,0 +1,25 @@
+{
+  "name": "heroku-node-docker-alpine-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/heroku-node-docker-alpine-addon.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/heroku-node-docker-alpine-addon/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/heroku-node-docker-alpine-addon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "grpc": "^1.24.4",
+    "sq-native": "^1.0.7",
+    "sqlite3": "^5.0.1"
+  }
+}
