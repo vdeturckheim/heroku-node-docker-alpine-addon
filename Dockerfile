@@ -1,4 +1,6 @@
-FROM node:14.15.0-alpine
+FROM node:14-alpine
+RUN apk update && apk add ulimit
+RUN ulimit -s
 
 WORKDIR /app
 RUN chown node:node /app
